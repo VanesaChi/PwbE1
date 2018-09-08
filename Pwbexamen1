@@ -1,0 +1,37 @@
+--Vanessa Alexandra Chi Peña
+--15210512
+
+Examen practico unidad 1 
+
+1.- Examen/
+----Examen
+-------__init__.py
+-------setting.py
+-------urls.py
+-------wsgl.py
+----Manage.py
+
+2.- makemigration
+migrate  and manage
+
+3.- 
+Global:las paginas son declaras fuera de las app
+Local: son declaradas dentro del proyecto
+
+4.- def home(request):
+return render(request,"home.html")
+
+5.- class home_view(generic.index_view):
+template=name =("tweet/index.html")
+model= tweet
+
+6.-  django-admin startproject examen1
+
+7.- django-admin startapp examen1
+
+8.- es para las configuraciones, de la instalciones del proyecto
+
+9.- python manage.py migrate
+
+10.- python manage.py makemigration
+
